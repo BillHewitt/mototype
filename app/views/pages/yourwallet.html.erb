@@ -1,0 +1,165 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages} %>
+<%= render 'partials/topnav', locals: {category: :pages} %>
+<div class="main-content">
+
+<%= render 'partials/topbar' %>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-12 col-xl-12">
+      
+     <div class="header-body mt-4 mb-2">
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Your wallet
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Credit for the things you love
+                </h2>
+
+              </div>
+              <div class="col-12 col-md-auto mt-4 mt-md-0 mb-md-3">
+
+               
+
+
+                
+
+              </div>
+              
+            </div> <!-- / .row -->
+            </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-12 col-xl-12">
+
+          <div class="row mt-4">
+          <div class="col-12 col-xl-12">
+
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Types
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                   <h4 class="card-header-title">
+                      Balances
+                    </h4>
+                    
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+
+                
+
+                <div class="row align-items-center">
+                  
+                  <div class="col ml-1">
+
+                    <!-- Title -->
+                   <h4 class="card-title mb-1">
+                      <a href="#"><span class="fe fe-award text-muted mr-2"></span> Rewards & recognition</a>
+                    </h4>
+
+
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <h2 class="card-title mb-1 text-muted">
+                      <span class="badge badge-soft-primary text-sm"><span class="fe fe-star"></span> 40 credits</span>
+                    </h2>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+
+                <hr>
+
+                 <div class="row align-items-center">
+                  
+                  <div class="col ml-1">
+
+                    <!-- Title -->
+                    <h4 class="card-title mb-1">
+                      <a href="#"><span class="fe fe-target text-muted mr-2"></span> Learning & development</a>
+                    </h4>
+
+
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <h2 class="card-title mb-1 text-muted">
+                      <span class="badge badge-soft-secondary text-sm"><span class="fe fe-star"></span> 0 credits</span>
+                    </h2>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+                <!-- Divider -->
+                
+
+              </div> <!-- / .card-body -->
+            </div>
+
+          </div>
+          
+        </div>
+
+        <hr>
+
+        <div class="card mb-2 mt-4">
+                <div class="card-body text-center mt-4">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-12 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Earn more credit
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Invite a team manager you know to start using Mo and get 50 credits for free 
+                      </p>
+
+                      <!-- Button -->
+                      <a href="/giftcards" class="btn btn-primary lift mb-4">
+                        Learn more
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+          
+
+</div>
+
+<script>
+  jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
+</script>

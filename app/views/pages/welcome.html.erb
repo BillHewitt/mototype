@@ -1,0 +1,343 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :feed} %>
+<div class="main-content bg-fixed-bottom">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-center">
+              <div class="col-auto">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-lg">
+                  <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-3.jpg' %>" alt="..." class="avatar-img rounded-circle">
+                </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Welcome back
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Darrell Stephens
+                </h2>
+
+              </div>
+              
+            </div>
+          </div> <!-- / .header-body -->
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <h3 class="mt-0 mb-4">Your wellbeing</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card mb-2">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 order-lg-2">
+                  
+                      <!-- Image -->
+                       <div class="text-center">
+                        <img src="<%= asset_pack_path 'media/images/illustrations/fin2.svg' %>" alt="..." class="img-fluid" style="max-width: 80px;">
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Financial
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Helping you feel financially secure
+                      </p>
+
+                      <!-- Button -->
+                      <a href="/financial.html" class="btn btn-primary lift">
+                        Explore
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mb-2">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 order-lg-2">
+                  
+                      <!-- Image -->
+                     <div class="text-center">
+                        <img src="<%= asset_pack_path 'media/images/illustrations/phy.svg' %>" alt="..." class="img-fluid" style="max-width: 70px;">
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Physical
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Helping you feel physically vibrant
+                      </p>
+
+                      <!-- Button -->
+                      <a href="/physical.html" class="btn btn-primary lift">
+                        Explore
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mb-2">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 order-lg-2">
+                  
+                      <!-- Image -->
+                     <div class="text-center">
+                        <img src="<%= asset_pack_path 'media/images/illustrations/heart.svg' %>" alt="..." class="img-fluid" style="max-width: 90px;">
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Emotional
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Helping you feel emotionally supported
+                      </p>
+
+                      <!-- Button -->
+                      <a href="/emotional.html" class="btn btn-primary lift">
+                        Explore
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+          </div>
+        </div>
+
+
+        <hr>
+
+        <div class="row">
+          <div class="col-sm">
+            <h3 class="mt-3 mb-4">Recommended for you <span><a href="/allcontent.html" class="small ml-3">View all <i class="fe fe-chevron-right"></i></a></span></h3>
+          </div>
+
+        <div class="row">
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Course name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Live content</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Course name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Guided activity</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              </div>
+
+
+            </div>
+
+            <div class="row">
+              <br>
+            </div>
+
+
+           
+
+          </div>
+        </div>
+      </div>
+
+
+            </div>
+
+            <div class="row">
+              <br>
+            </div>
+
+
+      </div>
+        </div>
+      </div>
+      
+    </div>

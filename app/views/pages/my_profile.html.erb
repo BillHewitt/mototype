@@ -1,0 +1,395 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-center">
+              <div class="col-auto">
+
+                <!-- Avatar -->
+                <div class="avatar avatar-lg">
+                  <img src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="..." class="avatar-img rounded-circle" >
+                </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  My profle
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Lewis Collins
+                </h2>
+
+              </div>
+              
+            </div> <!-- / .row -->
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Nav -->
+                <ul class="nav nav-tabs nav-overflow header-tabs">
+                  <li class="nav-item">
+                    <a href="my_profile.html" class="nav-link active">
+                      Overview
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="my_details.html" class="nav-link">
+                      Details
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="my_security.html" class="nav-link">
+                      Security
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="my_notifications.html" class="nav-link">
+                      Notifications
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12">
+            <div class="alert alert-success" style="display: none;">
+              You've been gifted £20.00 to choose your own, personalised perks from our <a href="https://www.w3schools.com" class="text-white">Marketplace</a>
+
+              <!-- Close -->
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="container-fluid">
+
+  <div class="row">
+          <div class="col-12 col-lg-6 col-xl">
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h6 class="text-uppercase text-muted mb-3">
+                      Financial
+                    </h6>
+
+                    <!-- Heading -->
+                    <span class="h2 mb-0 mr-2">
+                      $24
+                    </span>
+
+                    <!-- Badge -->
+                    <span class="badge badge-soft-primary mt-n1">
+                      estimated savings
+                    </span>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Icon -->
+                    <span class="h2 fe fe-dollar-sign text-muted mb-0"></span>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6 col-xl">
+
+            <!-- Card -->
+             <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h6 class="text-uppercase text-muted mb-3">
+                      Physical
+                    </h6>
+
+                    <!-- Heading -->
+                    <span class="h2 mb-0 mr-2">
+                      1325
+                    </span>
+
+                    <!-- Badge -->
+                    <span class="badge badge-soft-primary mt-n1">
+                      Steps
+                    </span>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Icon -->
+                    <span class="h2 fe fe-zap text-muted mb-0"></span>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6 col-xl">
+
+            <!-- Card -->
+             <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h6 class="text-uppercase text-muted mb-3">
+                      Emotional
+                    </h6>
+
+                    <div class="row align-items-center no-gutters">
+                      <div class="col-auto">
+
+                        <!-- Heading -->
+                        <span class="h3 mb-0 mr-2">
+                      12
+                    </span>
+
+                    <!-- Badge -->
+                    <span class="badge badge-soft-primary mt-n1">
+                      Mindfulness hours
+                    </span>
+
+                      </div>
+                      
+                    </div> <!-- / .row -->
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Icon -->
+                    <span class="h2 fe fe-heart text-muted mb-0"></span>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6 col-xl">
+
+            <!-- Card -->
+          <div class="card">
+
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h6 class="text-uppercase text-muted mb-3">
+                      Social
+                    </h6>
+
+                    <!-- Heading -->
+                    <span class="h3 mb-0 mr-2">
+                     4
+                    </span>
+
+                    <!-- Badge -->
+                    <span class="badge badge-soft-primary mt-n1">
+                      Recognitions
+                    </span>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Icon -->
+                    <span class="h2 fe fe-users text-muted mb-0"></span>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12">
+
+
+            <div class="card card-fill">
+                  <div class="card-header">
+                      <div class="row align-items-center">
+                        <div class="col">
+                          
+                          <!-- Title -->
+                          <h4 class="card-header-title">
+                            Recent activity
+                          </h4>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Link -->
+                          <a href="#" class="small">View all</a>
+                          
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  <div class="card-body">
+
+                    <!-- List group -->
+                    <div class="list-group list-group-flush list-group-activity my-n3">
+                      <div class="list-group-item">
+                        <div class="row">
+                          <div class="col-auto">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <img class="avatar-img rounded-circle" src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="...">
+                            </div>
+
+                          </div>
+                          <div class="col ml-n2">
+
+                            <!-- Heading -->
+                            <h5 class="mb-1">
+                              Discount redeemed
+                            </h5>
+
+                            <!-- Text -->
+                            <p class="small text-gray-700 mb-0">
+                              You redeemed Brand Name discount
+                            </p>
+
+                            <!-- Time -->
+                            <small class="text-muted">
+                              5m ago
+                            </small>
+
+                          </div>
+                        </div> <!-- / .row -->
+                      </div>
+                      <div class="list-group-item">
+                        <div class="row">
+                          <div class="col-auto">
+
+                             <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <img class="avatar-img rounded-circle" src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="...">
+                            </div>
+
+                          </div>
+                          <div class="col ml-n2">
+
+                            <!-- Heading -->
+                            <h5 class="mb-1">
+                              Recognition given
+                            </h5>
+
+                            <!-- Text -->
+                            <p class="small text-gray-700 mb-0">
+                              You gave Ab Hadley a recognition
+                            </p>
+
+                            <!-- Time -->
+                            <small class="text-muted">
+                              1h ago
+                            </small>
+
+                          </div>
+                        </div> <!-- / .row -->
+                      </div>
+                      <div class="list-group-item">
+                        <div class="row">
+                          <div class="col-auto">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <img class="avatar-img rounded-circle" src="<%= asset_pack_path 'media/images/avatars/profiles/avatar-2.jpg' %>" alt="...">
+                            </div>
+
+                          </div>
+                          <div class="col ml-n2">
+
+                            <!-- Heading -->
+                            <h5 class="mb-1">
+                              Gift card purchased
+                            </h5>
+
+                            <!-- Text -->
+                            <p class="small text-gray-700 mb-0">
+                              You bough Brand Name gift card
+                            </p>
+
+
+                            <!-- Time -->
+                            <small class="text-muted">
+                              3h ago
+                            </small>
+
+                          </div>
+                        </div>
+                        <!-- / .row -->
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+            
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+
+
+            </div>
+
+            
+
+      
+       
+
+        
+
+    <script src="/packs/js/application-0f5494508ed28de5e9bd.js"></script>
+
+  
+
+</div></div></div>
+
+
+            
+
+      
+       
+
+        

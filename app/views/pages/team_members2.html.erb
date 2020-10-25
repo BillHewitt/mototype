@@ -1,0 +1,483 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-center">
+              <div class="col-auto">
+
+                <!-- Avatar -->
+                 <div class="avatar avatar-lg">
+                    <span class="avatar-title rounded-circle">P</span>
+                  </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Company profle
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Perkbox
+                </h2>
+
+              </div>
+              
+            </div> <!-- / .row -->
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Nav -->
+                 <ul class="nav nav-tabs nav-overflow header-tabs">
+                  <li class="nav-item">
+                    <a href="team_profile.html" class="nav-link">
+                      Overview
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="team_members2.html" class="nav-link active">
+                      People
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="team_sub.html" class="nav-link">
+                      Teams
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="team_details.html" class="nav-link">
+                      Settings
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="team_bill.html" class="nav-link">
+                      Billing
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12">
+            <div class="alert alert-success" style="display: none;">
+              You've been gifted £20.00 to choose your own, personalised perks from our <a href="https://www.w3schools.com" class="text-white">Marketplace</a>
+
+              <!-- Close -->
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Card -->
+            <div class="card" data-toggle="lists" data-options="{&quot;valueNames&quot;: [&quot;orders-order&quot;, &quot;orders-product&quot;, &quot;orders-date&quot;, &quot;orders-total&quot;, &quot;orders-status&quot;, &quot;orders-method&quot;]}">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+                    
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      People
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+                    
+                    <a href="#" class="btn btn-primary btn-sm">
+                      Invite new
+                    </a>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Search -->
+                    <form class="row align-items-center">
+                      <div class="col-auto pr-0">
+                        <span class="fe fe-search text-muted"></span>
+                      </div>
+                      <div class="col">
+                          <input type="search" class="form-control form-control-flush search" placeholder="Search">
+                      </div>
+                    </form>
+                    
+                  </div>
+                  <div class="col-auto">
+                    
+                    <!-- Button -->
+
+                    <div class="dropdown">
+                      <button class="btn btn-sm btn-white dropdown-toggle" type="button" id="bulkActionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Bulk action
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bulkActionDropdown">
+                        <a class="dropdown-item" href="#!">Recognise</a>
+                        <hr>
+                        <a class="dropdown-item" href="#!">Resend welcome email</a>
+                        <a class="dropdown-item" href="#!">Update roles & permissions</a>
+                        <hr>
+                        <a class="dropdown-item" href="#!">Deactive</a>
+                        <a class="dropdown-item" href="#!">Delete</a> 
+                      </div>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="table-responsive">
+                <table class="table table-sm table-nowrap card-table">
+                  <thead>
+                    <tr>
+                      <th>
+                        <div class="custom-control custom-checkbox table-checkbox">
+                          <input type="checkbox" class="custom-control-input" name="ordersSelect" id="ordersSelectAll">
+                          <label class="custom-control-label" for="ordersSelectAll">
+                            &nbsp;
+                          </label>
+                        </div>
+                      </th>
+                      <th>
+                        <a href="#" class="text-muted sort" data-sort="orders-order">
+                          Name
+                        </a>
+                      </th>
+                      <th>
+                        <a href="#" class="text-muted">
+                          Status
+                        </a>
+                      </th>
+                      <th>
+                        <a href="#" class="text-muted">
+                          Role
+                        </a>
+                      </th>
+                      <th>
+                        <a href="#" class="text-muted">
+                          Actions
+                        </a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="list">
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox table-checkbox">
+                          <input type="checkbox" class="custom-control-input" name="ordersSelect" id="ordersSelectOne">
+                          <label class="custom-control-label" for="ordersSelectOne">
+                            &nbsp;
+                          </label>
+                        </div>
+                      </td>
+                      <td>
+
+                        <!-- Avatar -->
+                       <div class="avatar avatar-xs d-inline-block mr-2">
+                        <span class="avatar-title rounded-circle avatar-xs mr-2">DS</span>
+                      </div>
+                        
+                        <!-- Title -->
+                        <span>Dianna Smiley</span>
+
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary"><span class="text-success">●</span> Active</span>
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary">Employee
+                      </td>
+                      <td class="orders-total">
+                        <div class="dropdown">
+
+                          <!-- Toggle -->
+                          <a href="#" class="dropdown-toggle btn btn-sm btn-primary" data-toggle="dropdown">
+                            Action
+                          </a>
+
+                          <!-- Menu -->
+                          <div class="dropdown-menu dropdown-menu-right">
+                             <a class="dropdown-item" href="#!">Recognise</a>
+                              <hr>
+                              <a class="dropdown-item" href="#!">Deactivate</a>
+                              <a class="dropdown-item" href="#!">Delete</a> 
+                          </div>
+
+
+              
+
+
+
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox table-checkbox">
+                          <input type="checkbox" class="custom-control-input" name="ordersSelect" id="ordersSelectOne">
+                          <label class="custom-control-label" for="ordersSelectOne">
+                            &nbsp;
+                          </label>
+                        </div>
+                      </td>
+                      <td>
+
+                        <!-- Avatar -->
+                        <!-- Avatar -->
+                       <div class="avatar avatar-xs d-inline-block mr-2">
+                        <span class="avatar-title rounded-circle avatar-xs mr-2">AH</span>
+                      </div>
+                        
+                        <!-- Title -->
+                        <span>Ab Hadley</span>
+
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary"><span class="text-success">●</span> Active</span>
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary">Employee
+                      </td>
+                      <td class="orders-total">
+                        <div class="dropdown">
+
+                          <!-- Toggle -->
+                          <a href="#" class="dropdown-toggle btn btn-sm btn-primary" data-toggle="dropdown">
+                            Action
+                          </a>
+
+                          <!-- Menu -->
+                          <div class="dropdown-menu dropdown-menu-right">
+                             <a class="dropdown-item" href="#!">Recognise</a>
+                              <hr>
+                              <a class="dropdown-item" href="#!">Deactivate</a>
+                              <a class="dropdown-item" href="#!">Delete</a> 
+                          </div>
+
+
+              
+
+
+
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox table-checkbox">
+                          <input type="checkbox" class="custom-control-input" name="ordersSelect" id="ordersSelectOne">
+                          <label class="custom-control-label" for="ordersSelectOne">
+                            &nbsp;
+                          </label>
+                        </div>
+                      </td>
+                      <td>
+
+                        <!-- Avatar -->
+                         <div class="avatar avatar-xs d-inline-block mr-2">
+                        <span class="avatar-title rounded-circle avatar-xs mr-2">JH</span>
+                      </div>
+                        
+                        <!-- Title -->
+                        <span>James Hess</span>
+
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary"><span class="text-success">●</span> Active</span>
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary">Manager
+                      </td>
+                      <td class="orders-total">
+                        <div class="dropdown">
+
+                          <!-- Toggle -->
+                          <a href="#" class="dropdown-toggle btn btn-sm btn-primary" data-toggle="dropdown">
+                            Action
+                          </a>
+
+                          <!-- Menu -->
+                          <div class="dropdown-menu dropdown-menu-right">
+                             <a class="dropdown-item" href="#!">Recognise</a>
+                              <hr>
+                              <a class="dropdown-item" href="#!">Deactivate</a>
+                              <a class="dropdown-item" href="#!">Delete</a> 
+                          </div>
+
+
+              
+
+
+
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox table-checkbox">
+                          <input type="checkbox" class="custom-control-input" name="ordersSelect" id="ordersSelectOne">
+                          <label class="custom-control-label" for="ordersSelectOne">
+                            &nbsp;
+                          </label>
+                        </div>
+                      </td>
+                      <td>
+
+                        <!-- Avatar -->
+                        <div class="avatar avatar-xs d-inline-block mr-2">
+                        <span class="avatar-title rounded-circle avatar-xs mr-2">DD</span>
+                      </div>
+                        
+                        <!-- Title -->
+                        <span>Daniela Dewitt</span>
+
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary"><span class="text-success">●</span> Active</span>
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary">Employee
+                      </td>
+                      <td class="orders-total">
+                        <div class="dropdown">
+
+                          <!-- Toggle -->
+                          <a href="#" class="dropdown-toggle btn btn-sm btn-primary" data-toggle="dropdown">
+                            Action
+                          </a>
+
+                          <!-- Menu -->
+                          <div class="dropdown-menu dropdown-menu-right">
+                             <a class="dropdown-item" href="#!">Recognise</a>
+                              <hr>
+                              <a class="dropdown-item" href="#!">Deactivate</a>
+                              <a class="dropdown-item" href="#!">Delete</a> 
+                          </div>
+
+
+              
+
+
+
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox table-checkbox">
+                          <input type="checkbox" class="custom-control-input" name="ordersSelect" id="ordersSelectOne">
+                          <label class="custom-control-label" for="ordersSelectOne">
+                            &nbsp;
+                          </label>
+                        </div>
+                      </td>
+                      <td>
+
+                        <!-- Avatar -->
+                        <div class="avatar avatar-xs d-inline-block mr-2">
+                        <span class="avatar-title rounded-circle avatar-xs mr-2">MM</span>
+                      </div>
+                        
+                        <!-- Title -->
+                        <span>Miyah Myles</span>
+
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary"><span class="text-success">●</span> Active</span>
+                      </td>
+                      <td class="orders-product">
+                        <span class="badge badge-soft-secondary">Admin
+                      </td>
+                      <td class="orders-total">
+                        <div class="dropdown">
+
+                          <!-- Toggle -->
+                          <a href="#" class="dropdown-toggle btn btn-sm btn-primary" data-toggle="dropdown">
+                            Action
+                          </a>
+
+                          <!-- Menu -->
+                          <div class="dropdown-menu dropdown-menu-right">
+                             <a class="dropdown-item" href="#!">Recognise</a>
+                              <hr>
+                              <a class="dropdown-item" href="#!">Deactivate</a>
+                              <a class="dropdown-item" href="#!">Delete</a> 
+                          </div>
+
+
+              
+
+
+
+                        </div>
+                      </td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+
+
+           
+
+
+    <script src="/packs/js/application-4ac0f01db9fdc19bc5f0.js"></script>
+
+  
+
+</div></div></div>
+
+            
+
+      
+       
+
+        
+
+    <script src="/packs/js/application-0f5494508ed28de5e9bd.js"></script>
+
+  
+
+</div></div></div>
+
+
+            
+
+      
+       
+
+        

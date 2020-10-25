@@ -1,0 +1,323 @@
+<nav class="navbar navbar-expand-lg navbar-dark" id="topnav">
+  <div class="container">
+
+    <!-- Toggler -->
+    <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Brand -->
+    <a class="navbar-brand mr-auto order-lg-first" href="/home.html">
+      <img src="<%= asset_pack_path 'media/images/mo.png'%>" class="navbar-brand-img mx-auto" alt="...">
+    </a>
+
+    <!-- Form -->
+    <form class="form-inline mr-4 d-none d-lg-flex">
+      <div class="input-group input-group-rounded input-group-merge" data-toggle="lists" data-options='{"valueNames": ["name"]}'>
+
+        <!-- Input -->
+        <input type="search" class="form-control form-control-prepended  dropdown-toggle search" data-toggle="dropdown" placeholder="Search" aria-label="Search">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <i class="fe fe-search"></i>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </form>
+
+    <!-- User -->
+    <div class="navbar-user">
+
+        <a href="/yourwallet.html" class="navbar-user-link mr-2 d-none d-lg-block" role="button">
+          <span class="icon active">
+            <i class="fe fe-credit-card"></i>
+          </span>
+        </a>
+      
+      <!-- Dropdown -->
+      <div class="dropdown mr-4 d-none d-lg-flex">
+        
+        <!-- Toggle -->
+        <a href="#" class="navbar-user-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="icon">
+            <i class="fe fe-bell"></i>
+          </span>
+        </a>
+
+        <!-- Menu -->
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu-card">
+          <div class="card-header">
+            <div class="row align-items-center">
+              <div class="col">
+                
+                <!-- Title -->
+                <h5 class="card-header-title">
+                  Notifications
+                </h5>
+
+              </div>
+              <div class="col-auto">
+                
+                <!-- Link -->
+                <a href="#!" class="small">
+                  Mark all as read
+                </a>
+
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .card-header -->
+          <div class="card-body">
+
+            <!-- List group -->
+            <div class="list-group list-group-flush my-n3">
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <div class="avatar avatar-sm">
+                        <img src="<%= asset_pack_path 'media/images/jacob.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-dark">
+                      Enjoyed the chat today at the Aviator. Bring on Product Led Growth!
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      12 hr ago
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                        <img src="<%= asset_pack_path 'media/images/luke.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-dark">
+                      Welcome to Mo @Bill Hewitt, happy to have you on the team!
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      24 hr ago
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                        <img src="<%= asset_pack_path 'media/images/meg.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-dark">
+                      Hello and welcome to Mo!
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      24 hr ago
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                        <img src="<%= asset_pack_path 'media/images/mark.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-dark">
+                      Welcome to the team, Bill
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      24 hr ago
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                        <img src="<%= asset_pack_path 'media/images/craig.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Content -->
+                    <div class="small text-dark">
+                      Hey Bill!
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      24 hr ago
+                    </small>
+                    
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+            </div>
+            
+          </div>
+        </div> <!-- / .dropdown-menu -->
+
+      </div>
+
+      <!-- Dropdown -->
+      <div class="dropdown">
+        
+        <!-- Toggle -->
+        <a href="#" class="avatar avatar-sm avatar-online dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="<%= asset_pack_path 'media/images/bill.jpg'%>" class="avatar-img rounded-circle" alt="...">
+        </a>
+
+        <!-- Menu -->
+        <div class="dropdown-menu dropdown-menu-right">
+          <a href="#" class="dropdown-item d-lg-none">Notifications</a>
+          <a href="yourwallet.html" class="dropdown-item d-lg-none">Wallet
+          </a>
+          <a href="yourprofile.html" class="dropdown-item">Profile</a>
+          <a href="yourpurchases.html" class="dropdown-item">Purchases</a>
+          <hr class="dropdown-divider">
+          <a href="sign-in.html" class="dropdown-item">Logout</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse mr-auto order-lg-first" id="navbar">
+
+      <!-- Form -->
+      <form class="mt-4 mb-3 d-md-none">
+        <input type="search" class="form-control form-control-rounded" placeholder="Search" aria-label="Search">
+      </form>
+
+      <!-- Navigation -->
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        <% if current_page?('/for_you.html') || current_page?('/for_you_awards.html') || current_page?('/for_you_recognition.html') || current_page?('/for_you_rewards.html') %>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="for_you.html" role="button" aria-expanded="<%= locals[:category] == 'pages' %>" aria-controls="sidebarPages">
+            For you
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="for_you.html" role="button" aria-expanded="<%= locals[:category] == 'pages' %>" aria-controls="sidebarPages">
+            For you
+          </a>
+        </li>
+
+
+        <% end %>
+
+        <% if current_page?('/discover.html') %>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="discover.html" role="button" aria-expanded="false">
+            Discover
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="discover.html" role="button" aria-expanded="false">
+            Discover
+          </a>
+        </li>
+
+        <% end %>
+
+        <% if current_page?('/marketplace.html') %>
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            Marketplace
+          </a>
+        </li>
+
+        <% else %>
+
+        <li class="nav-item">
+          <a class="nav-link" href="marketplace.html" role="button" aria-controls="sidebarDashboards">
+            Marketplace
+          </a>
+        </li>
+
+        <% end %>
+      </ul>
+
+    </div>
+
+  </div> <!-- / .container -->
+</nav>

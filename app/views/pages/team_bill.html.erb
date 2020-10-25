@@ -1,0 +1,418 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-center">
+              <div class="col-auto">
+
+               <!-- Avatar -->
+                 <div class="avatar avatar-lg">
+                    <span class="avatar-title rounded-circle">P</span>
+                  </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Company profle
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Perkbox
+                </h2>
+
+              </div>
+              
+            </div> <!-- / .row -->
+            <div class="row align-items-center">
+              <div class="col">
+                
+               <!-- Nav -->
+                 <ul class="nav nav-tabs nav-overflow header-tabs">
+                  <li class="nav-item">
+                    <a href="team_profile.html" class="nav-link">
+                      Overview
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="team_members2.html" class="nav-link">
+                      People
+                    </a>
+                  </li>
+                   <li class="nav-item">
+                    <a href="team_sub.html" class="nav-link">
+                      Teams
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="team_details.html" class="nav-link">
+                      Settings
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="team_bill.html" class="nav-link active">
+                      Billing
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12">
+            <div class="alert alert-success" style="display: none;">
+              You've been gifted £20.00 to choose your own, personalised perks from our <a href="https://www.w3schools.com" class="text-white">Marketplace</a>
+
+              <!-- Close -->
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-6">
+
+                <!-- Card -->
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="text-uppercase text-muted mb-2">
+                          Current package
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          Complete
+                        </span>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <a class="btn btn-sm btn-white" href="pricing.html">Edit</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6">
+
+                <!-- Card -->
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="text-uppercase text-muted mb-2">
+                          Licence number
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          24
+                        </span>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <a class="btn btn-sm btn-primary" href="#">Upgrade</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Payment methods
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Button -->
+                    <a class="btn btn-sm btn-primary" href="#!">
+                      Add method
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+
+                <!-- List group -->
+                <div class="list-group list-group-flush my-n3">
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Image -->
+                        <img class="img-fluid" src="<%= asset_pack_path 'media/images/illustrations/visa.svg' %>" alt="..." style="max-width: 38px;">
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Heading -->
+                        <h4 class="mb-1">
+                          Visa ending in 1234
+                        </h4>
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          Expires 3/2024
+                        </small>
+
+                      </div>
+                      <div class="col-auto mr-n3">
+
+                        <!-- Badge -->
+                        <span class="badge badge-light">
+                          Default
+                        </span>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a class="dropdown-ellipses dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#!">
+                              Edit
+                            </a>
+                            <a class="dropdown-item" href="#!">
+                              Delete
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Image -->
+                        <img class="img-fluid" src="<%= asset_pack_path 'media/images/illustrations/mastercard.svg' %>" alt="..." style="max-width: 38px;">
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Heading -->
+                        <h4 class="mb-1">
+                          Mastercard ending in 1234
+                        </h4>
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          Expires 3/2024
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a class="dropdown-ellipses dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#!">
+                              Edit
+                            </a>
+                            <a class="dropdown-item" href="#!">
+                              Delete
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+
+                <!-- Title -->
+                <h4 class="card-header-title">
+                  Invoices
+                </h4>
+
+              </div>
+              <div class="table-responsive">
+                <table class="table table-sm table-nowrap card-table">
+                  <thead>
+                    <tr>
+                      <th>Invoice ID</th>
+                      <th>Date</th>
+                      <th>Amount</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody class="font-size-base">
+                    <tr>
+                      <td>
+                        <a href="invoice.html">Invoice #10395</a>
+                      </td>
+                      <td>
+                        <time datetime="2020-04-24">Apr. 24, 2020</time>
+                      </td>
+                      <td>
+                        $xx.xx
+                      </td>
+                      <td>
+                        <span class="badge badge-secondary">Outstanding</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="invoice.html">Invoice #10244</a>
+                      </td>
+                      <td>
+                        <time datetime="2020-03-24">Mar. 24, 2020</time>
+                      </td>
+                      <td>
+                        $xx.xx
+                      </td>
+                      <td>
+                        <span class="badge badge-success">Paid</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="invoice.html">Invoice #10119</a>
+                      </td>
+                      <td>
+                        <time datetime="2020-02-24">Feb. 24, 2020</time>
+                      </td>
+                      <td>
+                        $xx.xx
+                      </td>
+                      <td>
+                        <span class="badge badge-success">Paid</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="invoice.html">Invoice #10062</a>
+                      </td>
+                      <td>
+                        <time datetime="2020-01-24">Jan. 24, 2020</time>
+                      </td>
+                      <td>
+                        $xx.xx
+                      </td>
+                      <td>
+                        <span class="badge badge-success">Paid</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <hr class="mt-4 mb-5">
+
+            <div class="row justify-content-between mb-5">
+                <div class="col-12 col-md-6 mb-4">
+
+                  <!-- Heading -->
+                  <h4>
+                    Delete your account
+                  </h4>
+
+                  <!-- Text -->
+                  <p class="small text-muted mb-md-0">
+                    Please note, deleting your account is a permanent action and will no be recoverable once completed.
+                  </p>
+
+                </div>
+                <div class="col-auto">
+
+                  <!-- Button -->
+                  <button class="btn btn-danger">
+                    Delete
+                  </button>
+
+                </div>
+              </div>
+
+
+
+           
+
+
+    <script src="/packs/js/application-4ac0f01db9fdc19bc5f0.js"></script>
+
+  
+
+</div></div></div>
+
+            
+
+      
+       
+
+        
+
+    <script src="/packs/js/application-0f5494508ed28de5e9bd.js"></script>
+
+  
+
+</div></div></div>
+
+
+            
+
+      
+       
+
+        

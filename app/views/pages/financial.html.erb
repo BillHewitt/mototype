@@ -1,0 +1,355 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :feed} %>
+<div class="main-content bg-fixed-bottom">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+
+          <!-- Body -->
+          <div class="header-body">
+            <div class="row align-items-end">
+              <div class="col-md-12 col-lg-6 col-xl-6">
+                
+ <!-- Pretitle -->
+               
+
+                <!-- Title -->
+                <h2 class="header-title mt-4">
+                  <i class="fe fe-dollar-sign mr-2"></i> Financial wellbeing
+                </h2>
+
+              </div>
+              <div class="col-md-12 col-lg-6 col-xl-6">
+
+                <!-- Dropdown -->
+                    
+                    <!-- Dropdown -->
+                   
+
+                    </div>
+
+            </div> <!-- / .row -->
+          </div> <!-- / .header-body -->
+
+        </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card mb-2">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 order-lg-2">
+                  
+                      <!-- Image -->
+                      <div class="text-center">
+                        <img src="<%= asset_pack_path 'media/images/illustrations/save.svg' %>" alt="..." class="img-fluid" style="max-width: 100px;">
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Instant discounts
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Make great savings with access to hundreds of instant discount codes
+                      </p>
+
+                      <!-- Button -->
+                      <a href="/discounts.html" class="btn btn-primary lift">
+                        Explore discounts
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mb-2">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 order-lg-2">
+                  
+                      <!-- Image -->
+                     <div class="text-center">
+                        <img src="<%= asset_pack_path 'media/images/illustrations/shop.svg' %>" alt="..." class="img-fluid" style="max-width: 90px;">
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Purchase giftcards
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Purchase your favourite digital gift cards at discounted prices 
+                      </p>
+
+                      <!-- Button -->
+                      <a href="/giftcards" class="btn btn-primary lift">
+                        Explore giftcards
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card mb-2">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 order-lg-2">
+                  
+                      <!-- Image -->
+                     <div class="text-center">
+                        <img src="<%= asset_pack_path 'media/images/illustrations/earn.svg' %>" alt="..." class="img-fluid" style="max-width: 100px;">
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Earn cash back
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        Earn back cash when you purchase through our selected suppliers
+                      </p>
+
+                      <!-- Button -->
+                      <a href="/cashback" class="btn btn-primary lift">
+                        Explore cash back
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="card mt-4 mb-5">
+                <div class="card-body">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 order-lg-2">
+                  
+                      <!-- Image -->
+                     <div class="text-center">
+                         <a href="#!" class="btn btn-primary lift">
+                        Explore our financial hub
+                      </a>
+                      </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8 px-4 py-3 order-lg-1">
+                      
+                      <!-- Title -->
+                      <h2>
+                        Improve your financial wellbeing
+                      </h2>
+
+                      <!-- Content -->
+                      <p class="text-muted">
+                        We've got hundreds of hours of videos and content aimed at helping you navigate your path to financial wellbeing
+                      </p>
+
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+              </div>
+
+
+        <hr>
+
+        <div class="col-sm">
+            <h3 class="mt-5 mb-4">Recommended for you <span><a href="/allfinancial.html" class="small ml-3">View all <i class="fe fe-chevron-right"></i></a></span></h3>
+          </div>
+
+        <div class="row">
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-xl-3 col-md-3 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                      <h2 class="mt-5 mb-5">Brand name</h2>
+                    </div>
+
+                  </div> <!-- / .card-body -->
+                </div>
+              </div>
+              </div>
+
+
+            </div>
+
+            <div class="row">
+              <br>
+            </div>
+
+
+
+
+        
+
+           
+
+      </div>
+        </div>
+      </div>
+      
+    </div>

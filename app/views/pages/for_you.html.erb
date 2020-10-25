@@ -1,0 +1,782 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :project} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :project} %>
+<div class="main-content">
+
+      <%= render 'partials/topbar' %>
+
+      <!-- HEADER -->
+      <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body mt-4 mb-4">
+            <div class="row align-items-center">
+              <div class="col-auto">
+
+                <div class="avatar avatar-lg">
+                  <img src="<%= asset_pack_path 'media/images/bill.jpg'%>" class="avatar-img rounded-circle" alt="...">
+                </div>
+
+              </div>
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  For you
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Your moments, curated
+                </h2>
+
+              </div>
+              <div class="col-12 col-md-auto mt-4 mt-md-0 mb-md-3">
+
+               
+
+
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+
+                  <!-- Button group -->
+                  <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Actions
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="">
+                      <a class="dropdown-item" href="#">Create Mo book</a>
+                      <a class="dropdown-item" href="#">Share feed</a>
+                    </div>
+                  </div>
+                </div>
+
+                 <button type="button" class="btn btn-primary">
+                    Create new moment
+                  </button>
+
+              </div>
+              
+            </div> <!-- / .row -->
+            </div>
+      </div> <!-- / .header -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12">
+            <div class="alert alert-success" style="display: none;">
+              You've been gifted £20.00 to choose your own, personalised perks from our <a href="https://www.w3schools.com" class="text-white">Marketplace</a>
+
+              <!-- Close -->
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-xl-8">
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+
+                <!-- Header -->
+                <div class="mb-3">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+
+                       <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/jacob.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1">
+                        Jacob Hammond
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="card-text small text-muted">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">12hr ago</time>
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Dropdown -->
+                      <div class="dropdown">
+                        <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fe fe-more-vertical"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a href="#!" class="dropdown-item">
+                            Mark as Unforgettable
+                          </a>
+                          <a href="#!" class="dropdown-item">
+                            Hide from your feed
+                          </a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Text -->
+                <p class="mb-3">
+                  Enjoyed the chat today at the Aviator. Bring on Product Led Growth!
+                </p>
+
+                <div class="mb-3">
+                  <div class="row">
+                    <div class="col">
+
+                      <!-- Buttons -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        👍 1
+                      </a>
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add Reaction
+                      </a>
+
+                    </div>
+                    
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Share
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Comments -->
+                <div class="comment mb-3">
+                  <div class="row">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/bill.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Body -->
+                      <div class="comment-body">
+
+                        <div class="row">
+                          <div class="col">
+
+                            <!-- Title -->
+                            <h5 class="comment-title">
+                              Bill Hewitt
+                            </h5>
+
+                          </div>
+                          <div class="col-auto">
+
+                            <!-- Time -->
+                            <time class="comment-time">
+                              11:12
+                            </time>
+
+                          </div>
+                        </div> <!-- / .row -->
+
+                        <!-- Text -->
+                        <p class="comment-text">
+                          Agreed - I look forward to it!
+                        </p>
+
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+         
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Form -->
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                  <img src="<%= asset_pack_path 'media/images/bill.jpg'%>" class="avatar-img rounded-circle" alt="...">
+                </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Input -->
+                    <form class="mt-1">
+                      <label class="sr-only">Leave a comment...</label>
+                      <textarea class="form-control form-control-flush" data-toggle="autosize" rows="1" placeholder="Leave a comment" style="overflow: hidden; word-wrap: break-word; height: 40px;"></textarea>
+                    </form>
+
+                  </div>
+                  <div class="col-auto align-self-end">
+
+                    <!-- Icons -->
+                    <div class="text-muted mb-2">
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="" data-original-title="Add photo">
+                        <i class="fe fe-camera"></i>
+                      </a>
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="" data-original-title="Attach file">
+                        <i class="fe fe-paperclip"></i>
+                      </a>
+                      <a class="text-reset" href="#!" data-toggle="tooltip" title="" data-original-title="Add a gift">
+                        <i class="fe fe-gift"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+
+                <!-- Header -->
+                <div class="mb-3">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                       <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/luke.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1">
+                        Luke Fisher
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="card-text small text-muted">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">24hr ago</time>
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Dropdown -->
+                      <div class="dropdown">
+                        <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fe fe-more-vertical"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a href="#!" class="dropdown-item">
+                            Mark as Unforgettable
+                          </a>
+                          <a href="#!" class="dropdown-item">
+                            Hide from your feed
+                          </a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+
+        
+
+                <p class="mb-4">
+                  Welcome to Mo <a href="#!" class="badge badge-soft-primary">@Bill Hewitt</a>, happy to have you on the team!
+                </p>
+
+                <div class="mb-3">
+                  <div class="row">
+                    <div class="col">
+
+                      <!-- Buttons -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        😍 4
+                      </a>
+                      <a href="#!" class="btn btn-sm btn-white">
+                        👍 3
+                      </a>
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add Reaction
+                      </a>
+
+                    </div>
+                    <div class="col-auto mr-n3">
+
+                      <!-- Avatar group -->
+                      <div class="avatar-group d-none d-sm-flex">
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Merlin Mason">
+                          <span class="avatar-title rounded-circle">MM</span>
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Min Kim">
+                          <span class="avatar-title rounded-circle">MK</span>
+                        </a>
+                        <a href="profile-posts.html" class="avatar avatar-xs" data-toggle="tooltip" title="" data-original-title="Craig Burns">
+                          <span class="avatar-title rounded-circle">CB</span>
+                        </a>
+                      </div>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Share
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Comments -->
+
+                <div class="comment mb-3">
+                  <div class="row">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/jacob.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Body -->
+                      <div class="comment-body">
+
+                        <div class="row">
+                          <div class="col">
+
+                            <!-- Title -->
+                            <h5 class="comment-title">
+                              Jacob Hammond
+                            </h5>
+
+                          </div>
+                          <div class="col-auto">
+
+                            <!-- Time -->
+                            <time class="comment-time">
+                              11:12
+                            </time>
+
+                          </div>
+                        </div> <!-- / .row -->
+
+                        <!-- Text -->
+                        <p class="comment-text">
+                          Welcome, Bill!
+                        </p>
+
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <div class="comment mb-3">
+                  <div class="row">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/meg.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Body -->
+                      <div class="comment-body">
+
+                        <div class="row">
+                          <div class="col">
+
+                            <!-- Title -->
+                            <h5 class="comment-title">
+                              Meg Walker
+                            </h5>
+
+                          </div>
+                          <div class="col-auto">
+
+                            <!-- Time -->
+                            <time class="comment-time">
+                              11:12
+                            </time>
+
+                          </div>
+                        </div> <!-- / .row -->
+
+                        <!-- Text -->
+                        <p class="comment-text">
+                          Hello and welcome to Mo
+                        </p>
+
+                      </div>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Form -->
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                     <div class="avatar avatar-sm">
+                        <img src="<%= asset_pack_path 'media/images/bill.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Input -->
+                    <form class="mt-1">
+                      <label class="sr-only">Leave a comment...</label>
+                      <textarea class="form-control form-control-flush" data-toggle="autosize" rows="1" placeholder="Leave a comment" style="overflow: hidden; word-wrap: break-word; height: 40px;"></textarea>
+                    </form>
+
+                  </div>
+                  <div class="col-auto align-self-end">
+
+                    <!-- Icons -->
+                    <div class="text-muted mb-2">
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="" data-original-title="Add photo">
+                        <i class="fe fe-camera"></i>
+                      </a>
+                      <a class="text-reset mr-3" href="#!" data-toggle="tooltip" title="" data-original-title="Attach file">
+                        <i class="fe fe-paperclip"></i>
+                      </a>
+                      <a class="text-reset" href="#!" data-toggle="tooltip" title="" data-original-title="Add a gift">
+                        <i class="fe fe-gift"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-xl-4">
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Your insights
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a class="small" href="#!">
+                      View all
+                    </a>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+
+                <!-- List group -->
+                <div class="list-group list-group-flush my-n3">
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h5 class="card-title mb-1">
+                          <a href="#">Moments</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Time -->
+                        <time class="small text-muted" datetime="1988-10-24">
+                          23
+                        </time>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <h5 class="card-title mb-1">
+                          <a href="#">Connected Moments</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Time -->
+                        <time class="small text-muted" datetime="2018-10-28">
+                          11
+                        </time>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h5 class="card-title mb-1">
+                          <a href="#">Unforgettable Moments</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          3
+                        </small>
+
+                      </div>
+                    </div> <!-- / .row -->
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h4 class="card-header-title">
+                      Your top connections
+                    </h4>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <!-- Link -->
+                    <a class="small" href="#!">
+                      View all
+                    </a>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="card-body">
+                
+                <!-- Item -->
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                     <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/jacob.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Title -->
+                    <h5 class="card-title mb-1">
+                      <a href="#">Jacob Hammond</a>
+                    </h5>
+
+                  </div>
+                 <div class="col-auto">
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right" style="">
+                            <a href="#!" class="dropdown-item">
+                              View connections
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              View profile
+                            </a>
+                            <hr>
+                            <a href="#!" class="dropdown-item">
+                              Create moment
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Item -->
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/luke.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Title -->
+                    <h5 class="card-title mb-1">
+                      <a href="#">Luke Fisher</a>
+                    </h5>
+
+                  </div>
+                  <div class="col-auto">
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right" style="">
+                            <a href="#!" class="dropdown-item">
+                              View connections
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              View profile
+                            </a>
+                            <hr>
+                            <a href="#!" class="dropdown-item">
+                              Create moment
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Item -->
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    
+                    <!-- Avatar -->
+                    <div class="avatar">
+                        <img src="<%= asset_pack_path 'media/images/meg.jpg'%>" class="avatar-title rounded-circle" alt="...">
+                      </div>
+
+                  </div>
+                  <div class="col ml-n2">
+                    
+                    <!-- Title -->
+                    <h5 class="card-title mb-1">
+                      <a href="#">Meg Walker</a>
+                    </h5>
+
+                  </div>
+                  <div class="col-auto">
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                          <a href="#" class="dropdown-ellipses dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fe fe-more-vertical"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right" style="">
+                            <a href="#!" class="dropdown-item">
+                              View connections
+                            </a>
+                            <a href="#!" class="dropdown-item">
+                              View profile
+                            </a>
+                            <hr>
+                            <a href="#!" class="dropdown-item">
+                              Create moment
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+
+            <!-- Weekly Hours -->
+           
+          </div>
+        </div> <!-- / .row -->
+      </div>
+
+
+
+            </div>
+
+            
+
+      
+       
+
+        
+
+    <script src="/packs/js/application-0f5494508ed28de5e9bd.js"></script>
+
+  
+
+</div></div></div>
+
+
+            
+
+      
+       
+
+        

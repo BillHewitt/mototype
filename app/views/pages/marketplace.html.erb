@@ -1,0 +1,867 @@
+
+<%= render 'partials/modals' %>
+<%= render 'partials/sidebar', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/sidebar-sm', locals: {category: :pages, subcategory: :feed} %>
+<%= render 'partials/topnav', locals: {category: :pages, subcategory: :feed} %>
+<div class="main-content bg-fixed-bottom">
+
+      <%= render 'partials/topbar' %>
+
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+          <div class="col-12 col-lg-12 col-xl-12">
+            
+            <!-- Header -->
+            <div class="header">
+        <div class="container-fluid">
+          
+          <!-- Body -->
+          <div class="header-body mt-4 mb-4">
+            <div class="row align-items-center">
+              <div class="col ml-n3 ml-md-n2">
+                
+                <!-- Pretitle -->
+                <h6 class="header-pretitle">
+                  Marketplace
+                </h6>
+
+                <!-- Title -->
+                <h2 class="header-title">
+                  Gifts for unforgettable moments
+                </h2>
+
+              </div>
+              <div class="col-12 col-md-auto mt-4">
+
+                    <p>You have <a href="/yourwallet.html"><span class="fe fe-star"></span> 40 credits</a> available
+                    </p>
+
+               
+
+
+                
+
+              </div>
+              
+            </div> <!-- / .row -->
+            </div>
+      </div> <!-- / .header -->
+
+          <div class="row justify-content-center">
+            <!-- Filters -->
+            <div class="col-3 col-lg-3 col-xl-3 d-none d-lg-block">
+              <h3 class="ml-3">Occassions</h3>
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Rewards</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Birthdays</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Anniversaries</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Little gestures</a>
+                
+              </div>
+
+              <h3 class="ml-3 mt-5">Categories</h3>
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link text-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Health & wellbeing</a>
+                <a class="nav-link text-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Learning & growth</a>
+                <a class="nav-link text-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Entertainment</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Food & drink</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Home</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Family & pets</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Little extras</a>
+              </div>
+
+              <h3 class="ml-3 mt-5">Filters</h3>
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link text-dark" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Recommended</a>
+                <a class="nav-link text-dark" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Trending</a>
+                <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Under 20 credits</a>
+              </div>
+            </div>
+            <!-- Filters end -->
+            <!-- marketplace start -->
+            <div class="col-md-12 col-lg-9 col-xl-9">
+
+            <div class="col-md-12">
+              <form>
+                <div class="input-group input-group-lg input-group-merge">
+                  <input type="text" class="form-control form-control-prepended search" placeholder="Search">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <span class="fe fe-search"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#modalDemo1" class="btn btn-block btn-primary mb-4 mt-2 d-lg-none" data-toggle="modal">
+                  Menu
+                </a>
+                  
+
+
+                  <div class="card mt-4 mb-4">
+                    <div class="card-body">
+                      <div class="row align-items-center">
+                        <div class="col-12 col-lg-12 px-4 py-3 order-lg-1 text-center">
+                          
+                          <!-- Title -->
+                          <h2 class="mt-4">
+                            Introducing The Mo Marketplace
+                          </h2>
+
+                          <!-- Content -->
+                          <p class="text-muted">
+                            Help create unforgettable moments at work by sharing meaningful gifts and experiences. Either purchase directly from our marketplace or send credit and give the gift of choice.
+                          </p>
+
+                          <!-- Button -->
+                          <a href="#!" class="btn btn-primary lift mb-4">
+                            Learn more
+                          </a>
+
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+
+                  <h2 class="mt-5 mb-4">Recommended for you</h2>
+
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="card">
+                        <div class="card-body">
+
+                          <!-- Title -->
+                          <div class="text-center">
+                            <h2 class="mt-6 mb-6">Gift name</h2>
+                          </div>
+
+                        </div> <!-- / .card-body -->
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="card">
+                        <div class="card-body">
+
+                          <!-- Title -->
+                          <div class="text-center">
+                            <h2 class="mt-6 mb-6">Gift name</h2>
+                          </div>
+
+                        </div> <!-- / .card-body -->
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="card">
+                        <div class="card-body">
+
+                          <!-- Title -->
+                          <div class="text-center">
+                            <h2 class="mt-6 mb-6">Gift name</h2>
+                          </div>
+
+                        </div> <!-- / .card-body -->
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="card">
+                        <div class="card-body">
+
+                          <!-- Title -->
+                          <div class="text-center">
+                            <h2 class="mt-6 mb-6">Gift name</h2>
+                          </div>
+
+                        </div> <!-- / .card-body -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <h2 class="mt-3">Trending</h2>
+
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  </div>
+
+                  <h2 class="mt-4">Recently added</h2>
+
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                      <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <!-- Text -->
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="row">
+                        <div class="col-auto">
+
+                          <!-- Avatar -->
+                          <a class="avatar" href="#">
+                            <img src="https://dummyimage.com/600x400/cccccc/fff.png" alt="..." class="img-fluid mt-4 mb-4" >
+                          </a>
+
+                        </div>
+                        <div class="col ml-n2">
+                          
+                          <!-- Body -->
+                          <div class="comment-body">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- Title -->
+                                <h3 class="comment-title">
+                                  Gift name
+                                </h3>
+
+                              </div>
+                              <div class="col-auto">
+
+                               
+
+                              </div>
+                            </div> <!-- / .row -->
+
+                            <p class="comment-text">
+                              Details
+                            </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+<br>
+<br>
+                    </div>
+
+<br>
+<br>
