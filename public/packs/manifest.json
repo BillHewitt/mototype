@@ -1,70 +1,58 @@
 {
-  "app.css": "/packs/css/app-82de840b.css",
-  "app.css.map": "/packs/css/app-82de840b.css.map",
-  "app.js": "/packs/js/app-e8b554c719f5d88119c5.js",
-  "app.js.map": "/packs/js/app-e8b554c719f5d88119c5.js.map",
-  "application.js": "/packs/js/application-e28d419702e0ceb565fc.js",
-  "application.js.map": "/packs/js/application-e28d419702e0ceb565fc.js.map",
-  "dark-mode.css": "/packs/css/dark-mode-e11832ab.css",
-  "dark-mode.css.map": "/packs/css/dark-mode-e11832ab.css.map",
-  "dark-mode.js": "/packs/js/dark-mode-fb75a1253d9b6aad3d7a.js",
-  "dark-mode.js.map": "/packs/js/dark-mode-fb75a1253d9b6aad3d7a.js.map",
+  "app.css": "/packs/css/app-cd96603d.css",
+  "app.js": "/packs/js/app-a476c4579f6f299547ef.js",
+  "app.js.map": "/packs/js/app-a476c4579f6f299547ef.js.map",
+  "application.js": "/packs/js/application-bacefede872243b6c98f.js",
+  "application.js.map": "/packs/js/application-bacefede872243b6c98f.js.map",
+  "dark-mode.css": "/packs/css/dark-mode-6dc6aff6.css",
+  "dark-mode.js": "/packs/js/dark-mode-521871042f4881b28f8a.js",
+  "dark-mode.js.map": "/packs/js/dark-mode-521871042f4881b28f8a.js.map",
   "entrypoints": {
     "app": {
       "css": [
-        "/packs/css/app-82de840b.css"
+        "/packs/css/app-cd96603d.css"
       ],
       "js": [
-        "/packs/js/app-e8b554c719f5d88119c5.js"
-      ],
-      "css.map": [
-        "/packs/css/app-82de840b.css.map"
+        "/packs/js/app-a476c4579f6f299547ef.js"
       ],
       "js.map": [
-        "/packs/js/app-e8b554c719f5d88119c5.js.map"
+        "/packs/js/app-a476c4579f6f299547ef.js.map"
       ]
     },
     "application": {
       "js": [
-        "/packs/js/application-e28d419702e0ceb565fc.js"
+        "/packs/js/application-bacefede872243b6c98f.js"
       ],
       "js.map": [
-        "/packs/js/application-e28d419702e0ceb565fc.js.map"
+        "/packs/js/application-bacefede872243b6c98f.js.map"
       ]
     },
     "dark-mode": {
       "css": [
-        "/packs/css/dark-mode-e11832ab.css"
+        "/packs/css/dark-mode-6dc6aff6.css"
       ],
       "js": [
-        "/packs/js/dark-mode-fb75a1253d9b6aad3d7a.js"
-      ],
-      "css.map": [
-        "/packs/css/dark-mode-e11832ab.css.map"
+        "/packs/js/dark-mode-521871042f4881b28f8a.js"
       ],
       "js.map": [
-        "/packs/js/dark-mode-fb75a1253d9b6aad3d7a.js.map"
+        "/packs/js/dark-mode-521871042f4881b28f8a.js.map"
       ]
     },
     "light-mode": {
       "css": [
-        "/packs/css/light-mode-1808fa8c.css"
+        "/packs/css/light-mode-6dc45575.css"
       ],
       "js": [
-        "/packs/js/light-mode-20b3560c37563bbb6fd4.js"
-      ],
-      "css.map": [
-        "/packs/css/light-mode-1808fa8c.css.map"
+        "/packs/js/light-mode-11f78380bf3b675244eb.js"
       ],
       "js.map": [
-        "/packs/js/light-mode-20b3560c37563bbb6fd4.js.map"
+        "/packs/js/light-mode-11f78380bf3b675244eb.js.map"
       ]
     }
   },
-  "light-mode.css": "/packs/css/light-mode-1808fa8c.css",
-  "light-mode.css.map": "/packs/css/light-mode-1808fa8c.css.map",
-  "light-mode.js": "/packs/js/light-mode-20b3560c37563bbb6fd4.js",
-  "light-mode.js.map": "/packs/js/light-mode-20b3560c37563bbb6fd4.js.map",
+  "light-mode.css": "/packs/css/light-mode-6dc45575.css",
+  "light-mode.js": "/packs/js/light-mode-11f78380bf3b675244eb.js",
+  "light-mode.js.map": "/packs/js/light-mode-11f78380bf3b675244eb.js.map",
   "media/cerebrisans/cerebrisans-bold.eot": "/packs/media/cerebrisans/cerebrisans-bold-43a5f55c.eot",
   "media/cerebrisans/cerebrisans-bold.svg": "/packs/media/cerebrisans/cerebrisans-bold-9d5cea30.svg",
   "media/cerebrisans/cerebrisans-bold.ttf": "/packs/media/cerebrisans/cerebrisans-bold-4180e23f.ttf",
@@ -88,7 +76,6 @@
   "media/feather/Feather.svg": "/packs/media/feather/Feather-65d68bd4.svg",
   "media/feather/Feather.ttf": "/packs/media/feather/Feather-fe159434.ttf",
   "media/feather/Feather.woff": "/packs/media/feather/Feather-d9c23068.woff",
-  "media/images/Mo.png": "/packs/media/images/Mo-1e5f234c0c0997df396329721875fe9a.png",
   "media/images/avatars/profiles/avatar-1.jpg": "/packs/media/images/avatars/profiles/avatar-1-b42f730bc711cff2f549ff3a1e515408.jpg",
   "media/images/avatars/profiles/avatar-2.jpg": "/packs/media/images/avatars/profiles/avatar-2-a6ecdbaaf952c7ea6eb63f73b0ffd5bb.jpg",
   "media/images/avatars/profiles/avatar-3.jpg": "/packs/media/images/avatars/profiles/avatar-3-79d5ea92dc98be7100296929ecc09b58.jpg",
